@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Main_configuration>
+    <Server_ip server_ip="192.168.100.1" />
+    <Port_no port="8888" />
+    <Main_controller_ip main_controller_ip="192.168.100.2" />
+    <Total_spaces total_spaces="544" />
+    <Total_levels total_levels="1" />
+  </Main_configuration>
+  <Level_configuration>
+    <Level1_configuration>
+      <Controller_no L1-level_ontroller_no="1" />
+      <Controller_ip L1-level_controller_ip="192.168.100.2" />
+      <L1_spaces L1-spaces="544" />
+      <L1_zones L1-zones="3" />
+      <L1_detectors L1-detectors="4" />
+      <Zone_configuration>
+        <Zone1_configuration>
+          <L1-Z1_spaces L1-Z1_spaces="39" />
+          <L1-Z1_entry L1-Z1_entry="1" />
+          <L1-Z1_exit L1-Z1_exit="0" />
+          <L1-Z1_entry1_detector L1-Z1_entry1_detector="1" />
+          <L1-Z1_exit1_detector L1-Z1_exit1_detector="0" />
+        </Zone1_configuration>
+        <Zone2_configuration>
+          <L1-Z2_spaces L1-Z2_spaces="475" />
+          <L1-Z2_entry L1-Z2_entry="1" />
+          <L1-Z2_exit L1-Z2_exit="1" />
+          <L1-Z2_entry1_detector L1-Z2_entry1_detector="2" />
+          <L1-Z2_exit1_detector L1-Z2_exit1_detector="3" />
+        </Zone2_configuration>
+        <Zone3_configuration>
+          <L1-Z3_spaces L1-Z3_spaces="30" />
+          <L1-Z3_entry L1-Z3_entry="1" />
+          <L1-Z3_exit L1-Z3_exit="0" />
+          <L1-Z3_entry1_detector L1-Z3_entry1_detector="4" />
+          <L1-Z3_exit1_detector L1-Z3_exit1_detector="0" />
+        </Zone3_configuration>
+      </Zone_configuration>
+    </Level1_configuration>
+  </Level_configuration>
+</Configuration>
